@@ -10,12 +10,20 @@
     font-weight: bold;
     padding-top: 1em;
 }
+
+
 .right_sec{
     padding-right: 3em;
     display: flex;
     justify-content: right;
 }
-.right_sec p{
+.right_sec a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+.login_group{
     padding-left: 1em;
 }
 
@@ -25,6 +33,7 @@
 
 .list i{
     padding-right: 1em;
+    color:white;
 }
 
 .sub_navbar{
