@@ -54,11 +54,18 @@ export default function () {
               className="d-block w-100 main-content-image"
               alt="..."
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
+            <div className="top-left text-over-img-s1">
+              <h1>
+                <i>AHSOKA</i> PREMIERE DATE
+              </h1>
+              <h1>REVEALED</h1>
               <p>
-                Some representative placeholder content for the first slide.
+                Find out where you can see the upcoming live-action series on
+                Disney+
               </p>
+              <button type="button" className="yellowButton">
+                Read More
+              </button>
             </div>
           </div>
           <div
@@ -70,11 +77,24 @@ export default function () {
               className="d-block w-100 main-content-image"
               alt="..."
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
+            <div className="top-right text-over-img-s1">
+            <img src="./assets/logo2.png" width="70%" ></img>
+              <h1>
+                LUCASFILM LEGENDS CELEBRATE{" "}
+                <i>INDIANA JONES AND THE DIAL OF DESTINY</i> AT US PREMIERE
+              </h1>
               <p>
-                Some representative placeholder content for the second slide.
+                See the biggest momments of the night in Lucasfilm.com photo
+                gallery.
               </p>
+              <div className="buttons-container">
+                <button type="button" className="yellowButton">
+                  Read More
+                </button>
+                <button type="button" className="blackButton">
+                  GET TICKETS
+                </button>
+              </div>
             </div>
           </div>
           <div className="carousel-item main-image-container">
@@ -83,11 +103,17 @@ export default function () {
               class="d-block w-100 main-content-image"
               alt="..."
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+            <div className="top-left text-over-img-s1">
+              <h1>
+                QUIZ: WHICH <i>STAR WARS</i> CHARACTER IS MOST LIKE YOUR DAD?
+              </h1>
               <p>
-                Some representative placeholder content for the third slide.
+                Figure out if your father is more of a bounty hunter, a senator,
+                or Jedi knight.
               </p>
+              <button type="button" className="yellowButton">
+                Find Out Now
+              </button>
             </div>
           </div>
           <div className="carousel-item main-image-container">
@@ -96,11 +122,23 @@ export default function () {
               className="d-block w-100 main-content-image"
               alt="..."
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+            <div className="top-left text-over-img-s1">
+              <h1>
+                LUCASFILM LEGENDS CELEBRATE{" "}
+                <i>INDIANA JONES AND THE DIAL OF DESTINY</i> AT US PREMIERE
+              </h1>
               <p>
-                Some representative placeholder content for the third slide.
+                See the biggest momments of the night in Lucasfilm.com photo
+                gallery.
               </p>
+              <div className="buttons-container">
+                <button type="button" className="yellowButton">
+                  Read More
+                </button>
+                <button type="button" className="blackButton">
+                  GET TICKETS
+                </button>
+              </div>
             </div>
           </div>
           <div className="carousel-item main-image-container">
@@ -109,11 +147,15 @@ export default function () {
               className="d-block w-100 main-content-image"
               alt="..."
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+            <div className="top-left text-over-img-s1">
+              <h1>THIS WEEK IN INDIANA JONES</h1>
               <p>
-                Some representative placeholder content for the third slide.
+                Indiana Jones is back in action, Jhon Williams performs, and
+                more!
               </p>
+              <button type="button" className="yellowButton">
+                Watch Now
+              </button>
             </div>
           </div>
         </div>
