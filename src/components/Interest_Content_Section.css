@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  gap: 850px;
+}
+
+.divider {
+  height: 2px;
+  background-color: #000;
+}
+
+.mancha {
+  width: 5px;
+  height: 2px;
+  background-color: #fff;
+  margin-left: 5px;
+}
