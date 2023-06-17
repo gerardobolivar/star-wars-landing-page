@@ -24,6 +24,7 @@ export default function Section_Carrucel() {
             <div className="muesca-diagonal-derecha"></div>
             <div className="muesca-diagonal-izquierda"></div>
           </div>
+          <div className="prueba"></div>
         </li>
       </ul>
     </div>
