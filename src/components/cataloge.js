@@ -1,5 +1,6 @@
 import React from "react";
 import imgLogo from "../img/ahsoka-logo-desktop_d671a444.png";
+import CarrucelCataloge from "./Carrucel_Cataloge";
 import "./css_cataloge.css";
 
 export default function Cataloge() {
@@ -23,6 +24,8 @@ export default function Cataloge() {
         </div>
         <span className="gradient-overlay  content-center content-under"></span>
       </div>
+      <CarrucelCataloge/>
     </div>
+    
   );
 }
