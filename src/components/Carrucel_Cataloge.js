@@ -4,7 +4,7 @@ import "./Carrucel_Cataloge.css";
 const CardCarousel = () => {
   return (
     <ul className="col-container">
-      <li style={{ listStyleNone: "none" }} className="col item">
+      <li style={{ listStyleType: "none" }} className="col item">
         <img
           className="thumb"
           alt="Ahsoka Premiere Date Revealed"
@@ -25,7 +25,7 @@ const CardCarousel = () => {
           <div className="muesca-diagonal-izquierda"></div>
         </div>
       </li>
-      <li className="col item">
+      <li style={{ listStyleType: "none" }} className="col item">
         <img
           className="thumb"
           alt='"Begin" | Ahsoka'
@@ -46,7 +46,7 @@ const CardCarousel = () => {
           <div className="muesca-diagonal-izquierda"></div>
         </div>
       </li>
-      <li className="col item">
+      <li style={{ listStyleType: "none" }} className="col item">
         <img
           className="thumb"
           alt="Teaser Trailer | Ahsoka"
