@@ -2,6 +2,7 @@ import React from "react";
 import imgLogo from "../img/ahsoka-logo-desktop_d671a444.png";
 import CarrucelCataloge from "./Carrucel_Cataloge";
 import "./css_cataloge.css";
+import DatosCards from "./DatosCards";
 
 export default function Cataloge() {
   return (
@@ -24,7 +25,7 @@ export default function Cataloge() {
         </div>
         <span className="gradient-overlay  content-center content-under"></span>
       </div>
-      <CarrucelCataloge/>
+      <CarrucelCataloge data = {DatosCards.news}/>
     </div>
     
   );

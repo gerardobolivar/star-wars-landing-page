@@ -1,5 +1,4 @@
-
-.col-container{
+.col-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -9,28 +8,28 @@
   margin-left: 5rem;
 }
 
-.col{
+.col {
   position: relative;
-  width: 15rem ;
+  width: 15rem;
   height: 23rem;
   margin: 20px;
-  background-color: rgb(28,31,31);
+  background-color: rgb(28, 31, 31);
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   border-bottom-left-radius: 3%;
   border-bottom-right-radius: 3%;
 }
 
-img{
+img {
   width: 100%;
   height: auto;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
 }
 
-.title{
+.title {
   display: flex;
-  align-items: start  ;
+  align-items: start;
   color: white;
   text-align: center;
   font-size: 1rem;
@@ -40,15 +39,13 @@ img{
   text-decoration: none;
 }
 
-
-.muesca{
+.muesca {
   width: 6rem;
   height: 1rem;
-  background-color: rgb(44,45,47);
+  background-color: rgb(44, 45, 47);
   position: absolute;
   bottom: 0;
   right: 40px;
-  
 }
 
 .muesca-diagonal-derecha {
@@ -57,7 +54,7 @@ img{
   left: 0;
   width: 1rem;
   height: 100%;
-  background-color: rgb(28,31,31);
+  background-color: rgb(28, 31, 31);
   transform-origin: bottom right;
   transform: skew(45deg);
   margin-left: 6rem;
@@ -69,10 +66,45 @@ img{
   left: 0;
   width: 1rem;
   height: 100%;
-  background-color:  rgb(28,31,31);
+  background-color: rgb(28, 31, 31);
   transform-origin: bottom right;
   transform: skew(-45deg);
   margin-left: -1rem;
 }
 
+.Container {
+  position: relative;
+}
 
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.Btn-Next {
+  position: absolute;
+  top: 30%;
+  right: 5rem;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: #fff;
+}
+
+.Btn-Next:hover {
+  filter: brightness(0.5);
+}
+
+.Btn-Prev {
+  position: absolute;
+  top: 30%;
+  left: 7rem;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: #fff;
+}
+
+.Btn-Prev:hover {
+  filter: brightness(0.5);
+}

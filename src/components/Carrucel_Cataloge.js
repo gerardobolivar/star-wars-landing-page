@@ -1,74 +1,63 @@
-import React from "react";
+import { FaChevronCircleRight, FaChevronCircleLeft } from "react-icons/fa";
 import "./Carrucel_Cataloge.css";
+import { useState } from "react";
 
-const CardCarousel = () => {
+export default function Carrucel_Cataloge({ data }) {
+  const [showButton, setShowButton] = useState(true);
+  const [position, setPosition] = useState(0);
+
+  const grupos = [];
+  for (let i = 0; i < data.length; i += 3) {
+    grupos.push(data.slice(i, i + 3));
+  }
+
+  const handleButtonNext = () => {
+    setShowButton(false);
+    setPosition(position + 1);
+  };
+
+  const handleButtonPrev = () => {
+    setShowButton(true);
+    setPosition(position - 1);
+  };
+
   return (
-    <ul className="col-container">
-      <li style={{ listStyleType: "none" }} className="col item">
-        <img
-          className="thumb"
-          alt="Ahsoka Premiere Date Revealed"
-          src="https://lumiere-a.akamaihd.net/v1/images/ahsoka-date-featured_49f1d5aa.jpeg?region=0%2C0%2C1600%2C900"
+    <div className="Container">
+      <ul
+        className={"col-container"} 
+      >
+        {grupos[position]?.map((elemento) => (
+          <li style={{ listStyleType: "none" }} className="col item">
+            <img className="thumb" alt={elemento.span} src={elemento.src} />
+            <a
+              style={{ textDecoration: "none" }}
+              href={elemento.href}
+              className="entity-link title-link show-details"
+              tabIndex="-1"
+            >
+              <h3 className="title">
+                <span>{elemento.span}</span>
+              </h3>
+            </a>
+            <div className="muesca">
+              <div className="muesca-diagonal-derecha"></div>
+              <div className="muesca-diagonal-izquierda"></div>
+            </div>
+          </li>
+        ))}
+      </ul>
+      {showButton ? (
+        <FaChevronCircleRight
+          className="Btn-Next"
+          onClick={handleButtonNext}
         />
-        <a
-          style={{ textDecoration: "none" }}
-          href="https://www.starwars.com/news/ahsoka-premiere-date"
-          className="entity-link title-link show-details"
-          tabIndex="-1"
-        >
-          <h3 className="title">
-            <span>Ahsoka Premiere Date Revealed</span>
-          </h3>
-        </a>
-        <div className="muesca">
-          <div className="muesca-diagonal-derecha"></div>
-          <div className="muesca-diagonal-izquierda"></div>
-        </div>
-      </li>
-      <li style={{ listStyleType: "none" }} className="col item">
-        <img
-          className="thumb"
-          alt='"Begin" | Ahsoka'
-          src="https://img.youtube.com/vi/J7-zia4oHuk/maxresdefault.jpg"
+      ) : (
+        <FaChevronCircleLeft
+          className="Btn-Prev"
+          onClick={handleButtonPrev}
         />
-        <a
-          style={{ textDecoration: "none" }}
-          href="https://www.youtube.com/watch?v=J7-zia4oHuk"
-          className="entity-link title-link youtube-url show-details"
-          tabIndex="-1"
-        >
-          <h3 className="title no_focus">
-            <span>"Begin" | Ahsoka</span>
-          </h3>
-        </a>
-        <div className="muesca">
-          <div className="muesca-diagonal-derecha"></div>
-          <div className="muesca-diagonal-izquierda"></div>
-        </div>
-      </li>
-      <li style={{ listStyleType: "none" }} className="col item">
-        <img
-          className="thumb"
-          alt="Teaser Trailer | Ahsoka"
-          src="https://img.youtube.com/vi/HnzNZ0Mdx4I/maxresdefault.jpg"
-        />
-        <a
-          style={{ textDecoration: "none" }}
-          href="https://youtu.be/HnzNZ0Mdx4I"
-          className="entity-link title-link youtube-url show-details"
-          tabIndex="-1"
-        >
-          <h3 className="title no_focus">
-            <span>Teaser Trailer | Ahsoka</span>
-          </h3>
-        </a>
-        <div className="muesca">
-          <div className="muesca-diagonal-derecha"></div>
-          <div className="muesca-diagonal-izquierda"></div>
-        </div>
-      </li>
-    </ul>
+      )}
+    </div>
   );
-};
+}
 
-export default CardCarousel;
