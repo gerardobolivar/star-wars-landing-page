@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/star-wars-landing-page/static/css/main.22027785.css",
-    "main.js": "/star-wars-landing-page/static/js/main.6356a15b.js",
+    "main.js": "/star-wars-landing-page/static/js/main.fb4f355a.js",
     "static/js/787.1d15a4fe.chunk.js": "/star-wars-landing-page/static/js/787.1d15a4fe.chunk.js",
     "static/media/ahsoka-logo-desktop_d671a444.png": "/star-wars-landing-page/static/media/ahsoka-logo-desktop_d671a444.d214a75bf59d2f20b505.png",
     "static/media/bootstrap-icons.woff?": "/star-wars-landing-page/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
@@ -9,11 +9,11 @@
     "static/media/bootstrap-icons.woff2?": "/star-wars-landing-page/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/star-wars-landing-page/index.html",
     "main.22027785.css.map": "/star-wars-landing-page/static/css/main.22027785.css.map",
-    "main.6356a15b.js.map": "/star-wars-landing-page/static/js/main.6356a15b.js.map",
+    "main.fb4f355a.js.map": "/star-wars-landing-page/static/js/main.fb4f355a.js.map",
     "787.1d15a4fe.chunk.js.map": "/star-wars-landing-page/static/js/787.1d15a4fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22027785.css",
-    "static/js/main.6356a15b.js"
+    "static/js/main.fb4f355a.js"
   ]
 }
