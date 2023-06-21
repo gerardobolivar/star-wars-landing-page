@@ -26,7 +26,11 @@ export default function Navbar() {
         <div className="col-md-4 text-center logo">
           <div type="button">
             <a href="/">
-              <img src="/assets/logo.png" width={"184"} height={"80"}></img>
+              <img
+                src="https://lumiere-a.akamaihd.net/v1/images/sw_logo_stacked_2x-52b4f6d33087_7ef430af.png?region=0,0,586,254"
+                width={"184"}
+                height={"80"}
+              ></img>
             </a>
           </div>
         </div>
@@ -78,9 +82,12 @@ export default function Navbar() {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-12 mainNavFooter text-center" style={{
-          height: "7vh"
-        }}>
+        <div
+          className="col-md-12 mainNavFooter text-center"
+          style={{
+            height: "7vh",
+          }}
+        >
           <p>ALL OF YOUR STAR WARS FAVORITES NOW STREAMING ON DISNEY+</p>
         </div>
       </div>
