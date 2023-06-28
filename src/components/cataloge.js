@@ -1,5 +1,5 @@
 import React from "react";
-import imgLogo from "../img/ahsoka-logo-desktop_d671a444.png";
+//import imgLogo from "../img/ahsoka-logo-desktop_d671a444.png";
 import CarrucelCataloge from "./Carrucel_Cataloge";
 import "./css_cataloge.css";
 import DatosCards from "./DatosCards";
@@ -10,7 +10,7 @@ export default function Cataloge() {
       <div className="container-image">
         <div className="mask">
           <div>
-            <img className="img-logo" src={imgLogo} alt="Mi Imagen" />
+            {/*<img className="img-logo" src={imgLogo} alt="Mi Imagen" />*/}
           </div>
           <div className="container-text">
             <h4 className="">Ahsoka Tano investigates an emerging threat</h4>

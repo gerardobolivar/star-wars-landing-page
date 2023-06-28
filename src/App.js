@@ -10,8 +10,6 @@ function App() {
   return (
     <div className="App">
       <InterestContent/>
-      <Cataloge/>
-      <Footer/>
     </div>
   );
 }
