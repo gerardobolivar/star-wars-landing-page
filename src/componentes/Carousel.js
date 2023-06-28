@@ -50,7 +50,7 @@ export default function () {
             data-bs-interval="10000"
           >
             <img
-              src="./assets/C1.jpg"
+              src={require("../assets/C1.jpg")}
               className="d-block w-100 main-content-image"
               alt="..."
             />
@@ -73,12 +73,12 @@ export default function () {
             data-bs-interval="2000"
           >
             <img
-              src="./assets/C2.jpg"
+              src={require("../assets/C2.jpg")} //When using WebPAck it is necessary to use require to load the image.
               className="d-block w-100 main-content-image"
               alt="..."
             />
             <div className="top-right text-over-img-s1">
-            <img src="./assets/logo2.png" width="70%" ></img>
+              <img src="./assets/logo2.png" width="70%"></img>
               <h1>
                 LUCASFILM LEGENDS CELEBRATE{" "}
                 <i>INDIANA JONES AND THE DIAL OF DESTINY</i> AT US PREMIERE
@@ -99,7 +99,7 @@ export default function () {
           </div>
           <div className="carousel-item main-image-container">
             <img
-              src="./assets/C3.jpg"
+              src={require("../assets/C3.jpg")}
               class="d-block w-100 main-content-image"
               alt="..."
             />
@@ -118,7 +118,7 @@ export default function () {
           </div>
           <div className="carousel-item main-image-container">
             <img
-              src="./assets/C4.jpg"
+              src={require("../assets/C4.jpg")}
               className="d-block w-100 main-content-image"
               alt="..."
             />
@@ -143,7 +143,7 @@ export default function () {
           </div>
           <div className="carousel-item main-image-container">
             <img
-              src="./assets/C5.jpg"
+              src={require("../assets/C5.jpg")}
               className="d-block w-100 main-content-image"
               alt="..."
             />
