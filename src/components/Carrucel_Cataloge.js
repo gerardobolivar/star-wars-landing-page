@@ -26,8 +26,8 @@ export default function Carrucel_Cataloge({ data }) {
       <ul
         className={"col-container"} 
       >
-        {grupos[position]?.map((elemento) => (
-          <li style={{ listStyleType: "none" }} className="col item">
+        {grupos[position]?.map((elemento, index) => (
+          <li id={index} style={{ listStyleType: "none" }} className="col item">
             <img className="thumb" alt={elemento.span} src={elemento.src} />
             <a
               style={{ textDecoration: "none" }}
