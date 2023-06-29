@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -27,6 +28,7 @@ export default function Navbar() {
           <div type="button">
             <a href="/">
               <img
+                alt="Star Wars"
                 src="https://lumiere-a.akamaihd.net/v1/images/sw_logo_stacked_2x-52b4f6d33087_7ef430af.png?region=0,0,586,254"
                 width={"184"}
                 height={"80"}
@@ -44,9 +46,9 @@ export default function Navbar() {
             </div>
             <div className="login_group">
               <i className="bi bi-person"></i>
-              <a href="/" style={{ paddingLeft: "0.25em" }}>
+              <Link to="/login" style={{ paddingLeft: "0.25em"}}>
                 Login
-              </a>
+              </Link>
             </div>
           </div>
         </div>
