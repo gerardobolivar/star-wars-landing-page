@@ -26,22 +26,22 @@ export default function Navbar() {
         </div>
         <div className="col-md-4 text-center">
           <div type="button">
-            <a href="/">
+            <Link to="/">
               <img
-              className="logoNavbar"
+                className="logoNavbar"
                 alt="Star Wars"
                 src="https://lumiere-a.akamaihd.net/v1/images/sw_logo_stacked_2x-52b4f6d33087_7ef430af.png?region=0,0,586,254"
               ></img>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-md-4">
           <div className="right_sec">
             <div className="search_group" style={{paddingTop:"0.3em"}}>
               <i className="bi bi-search" style={{ fontSize: "1.4em" }}></i>
-              <a href="/" style={{ paddingLeft: "0.25em"}}>
+              <Link href="/" style={{ paddingLeft: "0.25em"}}>
                 Search
-              </a>
+              </Link>
             </div>
             <div className="login_group">
               <i className="bi bi-person"></i>
@@ -56,28 +56,28 @@ export default function Navbar() {
         <div className="col-md-12 ">
           <ul className="list-group list-group-horizontal sub_navbar ">
             <li className="list-group-item">
-              <a href="/">NEWS+FEATURES</a>
+              <Link href="/">NEWS+FEATURES</Link>
             </li>
             <li className="list-group-item">
-              <a href="/">VIDEO</a>
+              <Link href="/">VIDEO</Link>
             </li>
             <li className="list-group-item">
-              <a href="/">FILMS</a>
+              <Link href="/">FILMS</Link>
             </li>
             <li className="list-group-item">
-              <a href="/">SERIES</a>
+              <Link href="/">SERIES</Link>
             </li>
             <li className="list-group-item">
-              <a href="/">INTERACTIVE</a>
+              <Link href="/">INTERACTIVE</Link>
             </li>
             <li className="list-group-item">
-              <a href="/">COMUNITY</a>
+              <Link href="/">COMUNITY</Link>
             </li>
             <li className="list-group-item">
-              <a href="/">DATABANK</a>
+              <Link href="/">DATABANK</Link>
             </li>
             <li className="list-group-item">
-              <a href="/">DISNEY+</a>
+              <Link href="/">DISNEY+</Link>
             </li>
           </ul>
         </div>
