@@ -12,6 +12,7 @@ export default function Login() {
               src={require("../assets/logo.png")}
               alt="Logo"
             />
+            
           </Link>
         </div>
         <form className="form-login">
