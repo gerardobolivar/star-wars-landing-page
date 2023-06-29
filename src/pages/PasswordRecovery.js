@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./PasswordRecovery.css";
 
 export default function PasswordRecover() {
@@ -7,13 +8,13 @@ export default function PasswordRecover() {
       <div className="passwordRecoveryCard">
         <div className="passwordRecoveryCardContent">
           <div className="passwordRecoveryCardHeader">
-            <a href="/">
+            <Link to="/">
               <img
                 className="logopassrecovery"
                 src={require("../assets/logo.png")}
                 alt="Logo"
               />
-            </a>
+            </Link>
             <h2>Recover Password</h2>
             <div className="passwordRecoveryCardHeaderLine"></div>
           </div>
