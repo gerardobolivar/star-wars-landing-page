@@ -1,4 +1,4 @@
-.col-container {
+.col-container-cataloge {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -39,7 +39,7 @@ img {
   text-decoration: none;
 }
 
-.muesca {
+.muesca-cataloge {
   width: 6rem;
   height: 1rem;
   background-color: rgb(44, 45, 47);
@@ -48,7 +48,7 @@ img {
   right: 40px;
 }
 
-.muesca-diagonal-derecha {
+.muesca-diagonal-derecha-cataloge {
   position: absolute;
   top: 0;
   left: 0;
@@ -60,7 +60,7 @@ img {
   margin-left: 6rem;
 }
 
-.muesca-diagonal-izquierda {
+.muesca-diagonal-izquierda-cataloge {
   position: absolute;
   top: 0;
   left: 0;
@@ -72,7 +72,7 @@ img {
   margin-left: -1rem;
 }
 
-.Container {
+.Container-cataloge {
   position: relative;
 }
 
