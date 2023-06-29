@@ -92,3 +92,10 @@
   filter: brightness(1.2);
   box-shadow: 2px 2px 4px rgba(115, 239, 77, 0.4);
 }
+
+
+.container-btn{
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+}

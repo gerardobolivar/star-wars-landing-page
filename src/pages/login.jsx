@@ -7,21 +7,37 @@ export default function Login() {
         <form className="form-login">
           <p className="title-login">Star Wars</p>
           <div>
-            <input className="input Email-login" type="text" placeholder="E-mail" />
+            <input
+              className="input Email-login"
+              type="text"
+              placeholder="E-mail"
+            />
           </div>
           <div>
-            <input className="input password-login" type="text" placeholder="Password" />
+            <input
+              className="input password-login"
+              type="text"
+              placeholder="Password"
+            />
           </div>
           <div className="option-login">
             <div className="container-checkbox">
-              <input className="checkbox" type="checkbox" name="Remenber" id="Remenber" />
+              <input
+                className="checkbox"
+                type="checkbox"
+                name="Remenber"
+                id="Remenber"
+              />
               <p>Remenber me</p>
             </div>
             <div>
               <p>Forgot Password?</p>
             </div>
           </div>
-          <input className="btn-Login" type="button" value="Login" />
+          <div className="container-btn">
+            <input className="btn-Login" type="button" value="Login" />
+            <input className="btn-Login" type="button" value="Sing up" />
+          </div>
         </form>
       </div>
     </div>
