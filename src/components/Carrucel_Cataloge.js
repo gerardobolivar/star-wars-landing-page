@@ -22,9 +22,9 @@ export default function Carrucel_Cataloge({ data }) {
   };
 
   return (
-    <div className="Container">
+    <div className="Container-cataloge">
       <ul
-        className={"col-container"} 
+        className={"col-container-cataloge"} 
       >
         {grupos[position]?.map((elemento, index) => (
           <li id={index} style={{ listStyleType: "none" }} className="col item">
@@ -39,9 +39,9 @@ export default function Carrucel_Cataloge({ data }) {
                 <span>{elemento.span}</span>
               </h3>
             </a>
-            <div className="muesca">
-              <div className="muesca-diagonal-derecha"></div>
-              <div className="muesca-diagonal-izquierda"></div>
+            <div className="muesca-cataloge">
+              <div className="muesca-diagonal-derecha-cataloge"></div>
+              <div className="muesca-diagonal-izquierda-cataloge"></div>
             </div>
           </li>
         ))}
