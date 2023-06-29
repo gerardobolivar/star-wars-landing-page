@@ -7,15 +7,15 @@ export default function Interest_Content() {
     <div className="interest-content">
       <InterestContentSection
         sectionTitle="Latest News + Features" 
-        data = {data.news}/>
+        dataSection={data.news}/>
 
       <InterestContentSection
         sectionTitle="Latest Video"
-        data={data.latestVideo} />
+        dataSection={data.latestVideo} />
 
       <InterestContentSection 
         sectionTitle="Explore More"
-        data={data.exploreMore}
+        dataSection={data.exploreMore}
       />
     </div>
   );
