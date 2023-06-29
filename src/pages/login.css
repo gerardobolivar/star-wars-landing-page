@@ -1,0 +1,94 @@
+.container-login {
+  background-image: url(./starwars.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container-form {
+  background: rgba(0, 0, 0, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  width: 600px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-login {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-login {
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 2rem;
+}
+
+.input {
+  width: 20rem;
+  height: 3rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #e8e8e8;
+  transition: 0.3s;
+}
+
+.input:focus {
+  border: none;
+}
+
+.option-login {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+}
+
+.container-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-checkbox .checkbox {
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+}
+
+.btn-Login {
+  width: 7rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #7dec5c;
+}
+
+.btn-Login:hover {
+  background-color: #6cc24a;
+  cursor: pointer;
+  filter: brightness(1.2);
+  box-shadow: 2px 2px 4px rgba(115, 239, 77, 0.4);
+}
