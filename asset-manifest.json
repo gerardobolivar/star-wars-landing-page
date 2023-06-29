@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/star-wars-landing-page/static/css/main.8f357810.css",
-    "main.js": "/star-wars-landing-page/static/js/main.863cbfa9.js",
+    "main.css": "/star-wars-landing-page/static/css/main.dc37163a.css",
+    "main.js": "/star-wars-landing-page/static/js/main.ad8bef4c.js",
     "static/js/787.1d15a4fe.chunk.js": "/star-wars-landing-page/static/js/787.1d15a4fe.chunk.js",
     "static/media/C5.jpg": "/star-wars-landing-page/static/media/C5.088874cd6c8cd45fbab2.jpg",
     "static/media/C4.jpg": "/star-wars-landing-page/static/media/C4.ae435abcbdc2054e945e.jpg",
@@ -13,13 +13,14 @@
     "static/media/bootstrap-icons.woff?": "/star-wars-landing-page/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/ahsoka-tentpolehero-desktop_9bd627d0.jpeg": "/star-wars-landing-page/static/media/ahsoka-tentpolehero-desktop_9bd627d0.9e0b20522e6fcab37dcd.jpeg",
     "static/media/bootstrap-icons.woff2?": "/star-wars-landing-page/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/logo.png": "/star-wars-landing-page/static/media/logo.f3d61c028983a06535e2.png",
     "index.html": "/star-wars-landing-page/index.html",
-    "main.8f357810.css.map": "/star-wars-landing-page/static/css/main.8f357810.css.map",
-    "main.863cbfa9.js.map": "/star-wars-landing-page/static/js/main.863cbfa9.js.map",
+    "main.dc37163a.css.map": "/star-wars-landing-page/static/css/main.dc37163a.css.map",
+    "main.ad8bef4c.js.map": "/star-wars-landing-page/static/js/main.ad8bef4c.js.map",
     "787.1d15a4fe.chunk.js.map": "/star-wars-landing-page/static/js/787.1d15a4fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f357810.css",
-    "static/js/main.863cbfa9.js"
+    "static/css/main.dc37163a.css",
+    "static/js/main.ad8bef4c.js"
   ]
 }
