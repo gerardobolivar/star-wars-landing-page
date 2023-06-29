@@ -32,7 +32,7 @@ export default function Login() {
               <p>Remenber me</p>
             </div>
             <div className="container-checkbox ">
-              <Link to="/" className="option-login-a">
+              <Link to="/recovery" className="option-login-a">
                 Forgot Password?
               </Link>
             </div>

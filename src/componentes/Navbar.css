@@ -6,7 +6,7 @@
 .mainNavFooter{
     background-color: #0a0b0b;
     color : white;
-    font-size: small;
+    font-size: 1em;
     font-weight: bold;
     padding-top: 1em;
 }
@@ -59,4 +59,18 @@
 
 .sub_navbar a:hover{
     color: white;
+}
+
+.logoNavbar{
+    width: 20em;
+    height: 8em;
+    padding-left: 3em;
+}
+
+.mainNavbar li{
+    font-size: 1em;
+}
+.mainNavbar i{
+    font-size: 1.6em;
+    color:white;
 }

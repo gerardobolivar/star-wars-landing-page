@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Home from "./pages/Home";
 import Login from "./pages/login";
 import reportWebVitals from './reportWebVitals';
+import PasswordRecovery from './pages/PasswordRecovery';
 import './index.css';
 
 
@@ -16,6 +17,10 @@ const router = createHashRouter([
   { 
     path: "/login",
    element: <Login/> 
+  },
+  {
+    path: "/recovery",
+    element: <PasswordRecovery/>
   }
 ]);
 
