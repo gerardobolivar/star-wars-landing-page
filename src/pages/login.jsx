@@ -5,8 +5,16 @@ export default function Login() {
   return (
     <div className="container-login">
       <div className="container-form">
+        <div className="container-logo-login">
+          <Link to="/">
+            <img
+              className="logo-login"
+              src={require("../assets/logo.png")}
+              alt="Logo"
+            />
+          </Link>
+        </div>
         <form className="form-login">
-          <p className="title-login">Star Wars</p>
           <div>
             <input
               className="input Email-login"
