@@ -66,6 +66,14 @@
   width: 20rem;
 }
 
+.option-login-a{
+  color: #fff;
+  text-decoration: underline;
+  font-size: 10px;
+  transition: 0.3s;
+  margin-bottom: 1rem;
+}
+
 .container-checkbox {
   display: flex;
   align-items: center;
