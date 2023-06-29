@@ -24,23 +24,22 @@ export default function Navbar() {
             </ul>
           </div>
         </div>
-        <div className="col-md-4 text-center logo">
+        <div className="col-md-4 text-center">
           <div type="button">
             <a href="/">
               <img
+              className="logoNavbar"
                 alt="Star Wars"
                 src="https://lumiere-a.akamaihd.net/v1/images/sw_logo_stacked_2x-52b4f6d33087_7ef430af.png?region=0,0,586,254"
-                width={"184"}
-                height={"80"}
               ></img>
             </a>
           </div>
         </div>
         <div className="col-md-4">
           <div className="right_sec">
-            <div className="search_group">
-              <i className="bi bi-search" style={{ fontSize: "0.8em" }}></i>
-              <a href="/" style={{ paddingLeft: "0.25em" }}>
+            <div className="search_group" style={{paddingTop:"0.3em"}}>
+              <i className="bi bi-search" style={{ fontSize: "1.4em" }}></i>
+              <a href="/" style={{ paddingLeft: "0.25em"}}>
                 Search
               </a>
             </div>
@@ -86,9 +85,6 @@ export default function Navbar() {
       <div className="row">
         <div
           className="col-md-12 mainNavFooter text-center"
-          style={{
-            height: "7vh",
-          }}
         >
           <p>ALL OF YOUR STAR WARS FAVORITES NOW STREAMING ON DISNEY+</p>
         </div>
