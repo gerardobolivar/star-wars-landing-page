@@ -30,9 +30,18 @@ export default function PasswordRecover() {
                   placeholder=""
                 />
               </div>
-              <button type="submit" className="yellowButton recoveryButton">
-                Enviar
-              </button>
+              <div className="btn-recover">
+                <Link to="/">
+                  <button type="submit" className="yellowButton recoveryButton">
+                    Enviar
+                  </button>
+                </Link>
+                <Link to="/login">
+                  <button type="submit" className="yellowButton recoveryButton">
+                    Login
+                  </button>
+                </Link> 
+              </div>
             </form>
           </div>
         </div>
