@@ -48,7 +48,7 @@ export default function SignUp() {
           </div>
           <div className="container-btn-signup">
             <Link to="/login">
-              <input className="btn-signup" type="button" value="Sing up" />
+              <input className="btn-signup" type="button" value="Sign up" />
             </Link>
           </div>
         </form>
