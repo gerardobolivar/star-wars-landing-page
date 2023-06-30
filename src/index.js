@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Login from "./pages/login";
 import reportWebVitals from './reportWebVitals';
 import PasswordRecovery from './pages/PasswordRecovery';
+import SignUp from './pages/SignUp';
 import './index.css';
 
 
@@ -21,6 +22,10 @@ const router = createHashRouter([
   {
     path: "/recovery",
     element: <PasswordRecovery/>
+  },
+  {
+    path: "/signup",
+    element: <SignUp />
   }
 ]);
 

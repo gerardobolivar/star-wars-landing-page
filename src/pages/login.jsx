@@ -50,8 +50,8 @@ export default function Login() {
             <Link to="/">
               <input className="btn-Login" type="button" value="Login" />
             </Link>
-            <Link to="/">
-              <input className="btn-Login" type="button" value="Sing up" />
+            <Link to="/signup">
+              <input className="btn-Login" type="button" value="Sign up" />
             </Link>
           </div>
         </form>
