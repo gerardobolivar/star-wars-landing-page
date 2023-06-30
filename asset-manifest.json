@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/star-wars-landing-page/static/css/main.22a43bb4.css",
-    "main.js": "/star-wars-landing-page/static/js/main.045b1f75.js",
+    "main.css": "/star-wars-landing-page/static/css/main.3c61d993.css",
+    "main.js": "/star-wars-landing-page/static/js/main.79af21fe.js",
     "static/js/787.1d15a4fe.chunk.js": "/star-wars-landing-page/static/js/787.1d15a4fe.chunk.js",
     "static/media/C5.jpg": "/star-wars-landing-page/static/media/C5.088874cd6c8cd45fbab2.jpg",
     "static/media/C4.jpg": "/star-wars-landing-page/static/media/C4.ae435abcbdc2054e945e.jpg",
     "static/media/C2.jpg": "/star-wars-landing-page/static/media/C2.c2dd94dbc04aa53c5c9f.jpg",
     "static/media/starwars.webp": "/star-wars-landing-page/static/media/starwars.7b0da21d71b55749d20b.webp",
     "static/media/C1.jpg": "/star-wars-landing-page/static/media/C1.19ae167c34baf846555c.jpg",
+    "static/media/sign-up.webp": "/star-wars-landing-page/static/media/sign-up.6974bda6dd844bea9774.webp",
     "static/media/C3.jpg": "/star-wars-landing-page/static/media/C3.374d214a114a2a3c5fdf.jpg",
     "static/media/ahsoka-logo-desktop_d671a444.png": "/star-wars-landing-page/static/media/ahsoka-logo-desktop_d671a444.d214a75bf59d2f20b505.png",
     "static/media/bootstrap-icons.woff?": "/star-wars-landing-page/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
@@ -15,12 +16,12 @@
     "static/media/bootstrap-icons.woff2?": "/star-wars-landing-page/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "static/media/logo.png": "/star-wars-landing-page/static/media/logo.f3d61c028983a06535e2.png",
     "index.html": "/star-wars-landing-page/index.html",
-    "main.22a43bb4.css.map": "/star-wars-landing-page/static/css/main.22a43bb4.css.map",
-    "main.045b1f75.js.map": "/star-wars-landing-page/static/js/main.045b1f75.js.map",
+    "main.3c61d993.css.map": "/star-wars-landing-page/static/css/main.3c61d993.css.map",
+    "main.79af21fe.js.map": "/star-wars-landing-page/static/js/main.79af21fe.js.map",
     "787.1d15a4fe.chunk.js.map": "/star-wars-landing-page/static/js/787.1d15a4fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22a43bb4.css",
-    "static/js/main.045b1f75.js"
+    "static/css/main.3c61d993.css",
+    "static/js/main.79af21fe.js"
   ]
 }
